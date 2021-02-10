@@ -13,9 +13,8 @@ public class Main {
 
         while (!getString(dialog.quit()).equalsIgnoreCase("q") )  {
 
-
             if(getString(   dialog.changeLanguage() +" yes/no:").equalsIgnoreCase("yes")) {
-                dialog = sprog.SkiftSprog(getString("da/eng/ger/rus/fre"));
+                dialog = sprog.SkiftSprog(getString("da/eng/ger/rus/fre/po"));
             }
             System.out.println(dialog.selectedLanguage() + " " + dialog.getLanguage());
 
