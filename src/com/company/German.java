@@ -11,7 +11,7 @@ public class German implements Dialog {
 
     @Override
     public String quit() {
-        return "drücken sie q, um zu stoppen ";
+        return "Drücken Sie y, um die Sprache zu ändern / drücken sie q, um zu stoppen ";
     }
 
     @Override

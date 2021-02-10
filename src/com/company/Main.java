@@ -11,7 +11,7 @@ public class Main {
 
         Sprog sprog = new Sprog();
 
-        while (!getString("Press y for language change / Press q for exit" ).equalsIgnoreCase("q") )  {
+        while (!getString(dialog.quit()).equalsIgnoreCase("q") )  {
 
 
             if(getString("change language? yes/no:").equalsIgnoreCase("yes")) {
