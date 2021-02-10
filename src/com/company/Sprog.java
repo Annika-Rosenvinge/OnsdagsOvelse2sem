@@ -15,6 +15,7 @@ public class Sprog  {
         dialoger.put("ger", new German());
         dialoger.put("rus", new Russian());
         dialoger.put("fre", new French());
+        dialoger.put("po", new Português());
 
     }
     public Dialog SkiftSprog(String s) {
