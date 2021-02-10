@@ -10,7 +10,7 @@ public class Russian implements Dialog{
 
     @Override
     public String quit() {
-        return "нажмите q для выхода";
+        return "нажмите y, чтобы изменить язык / нажмите q для выхода";
     }
 
     @Override

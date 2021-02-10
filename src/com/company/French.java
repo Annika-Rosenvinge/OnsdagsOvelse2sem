@@ -10,7 +10,7 @@ public class French implements Dialog{
 
     @Override
     public String quit() {
-        return "Appuyez sur q pour quitter";
+        return "appuyez sur y pour changer de langue / Appuyez sur q pour quitter";
     }
 
     @Override

@@ -11,7 +11,7 @@ public class Dansk implements Dialog {
 
     @Override
     public String quit() {
-        return "tryk q for at stoppe ";
+        return "Tryk y for at skifte sprog / tryk q for at stoppe programmet";
     }
 
     @Override
