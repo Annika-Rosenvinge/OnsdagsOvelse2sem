@@ -11,12 +11,12 @@ public class Main {
 
         Sprog sprog = new Sprog();
 
-        while (!   getString(dialog.quit() ).equalsIgnoreCase("q") )  {
+        while (!getString("Press y for language change / Press q for exit" ).equalsIgnoreCase("q") )  {
 
 
             if(getString("change language ? y/n").equalsIgnoreCase("y")) {
 
-                dialog = sprog.SkiftSprog(getString("da / eng / de / ru / po "));
+                dialog = sprog.SkiftSprog(getString("da / eng / ger / rus / fre / po "));
 
             }
             System.out.println(dialog.selectedLanguage() + " " + dialog.getLanguage());
