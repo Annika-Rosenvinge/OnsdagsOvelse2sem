@@ -8,4 +8,9 @@ public class Tysk implements Dialog{
     public String quit(){return "Drücke q zum beenden";}
     @Override
     public String selectedLanguage() {return "Die ausgewählte Sprache ist:"; }
+
+    @Override
+    public String changeLanguage() {
+        return "Möchten Sie die Sprache ändern?";
+    }
 }

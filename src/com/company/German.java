@@ -18,4 +18,9 @@ public class German implements Dialog {
     public String selectedLanguage() {
         return "die ausgewählte Sprache ist ";
     }
+
+    @Override
+    public String changeLanguage() {
+        return "Möchten Sie die Sprache ändern?";
+    }
 }

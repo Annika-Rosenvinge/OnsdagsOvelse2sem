@@ -17,4 +17,9 @@ public class Russian implements Dialog{
     public String selectedLanguage() {
         return "выбранный язык ";
     }
+
+    @Override
+    public String changeLanguage() {
+        return "Вы хотите сменить язык";
+    }
 }
